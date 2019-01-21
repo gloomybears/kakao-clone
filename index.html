@@ -1,27 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+  <title>Friends</title>
 </head>
 <body>
 
-  
-  <div></div>
-  <div>
-    <p><span></span><em></em></p>
-    <blockquote></blockquote>
-  </div>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      </div>
 
-  <div></div>
-  <div>
-    <p><span></span><em></em></p>
-  </div>
-  <div></div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
 
-  <header></header>
+      <div class="header__column">
+        <i class="fas fa-moon"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="header__battery">66% <i class="fas fa-battery-full"></i></span>
+      </div>
+    </div><!-- .header__top// -->
 
-  
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Manage</span>
+      </div>
+
+      <div class="header__column">
+        <span class="header__text">Friends<span class="header__number">1</span></span>
+      </div>
+
+      <div class="header__column">
+        <i class="fa fa-cog fa-lg"></i>
+      </div>
+    </div><!-- .header__bottom// -->
+  </header>
+
+  <main class="friends">
+
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, Chats, Plus Friends" />
+    </div><!-- .search-bar// -->
+
+    <section class="friends__section">
+
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">My profile</h6>
+      </header>
+
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+          <img src="" alt="" />
+          <span class="friends__section-name">Nicolas</span>
+        </div><!-- .friends__section-row// -->
+
+        <div class="friends__section-row">
+          <img src="" alt="" />
+          <span class="friends__section-name">Friend's Names Display</span>
+        </div><!-- .friends__section-row// -->
+      </div><!-- .friends__section-rows// -->
+    </section>
+
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title"></h6>
+      </header>
+
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+          <div class="friends__section-column">
+            <img src="" alt="" />
+            <span class="friends__section-name">LYNN</span>
+          </div>
+          <span class="friends__section-tagline">
+            Life is short. So live your life.
+          </span>
+        </div><!-- .friends__section-row// -->
+      </div><!-- .friends__section-rows// -->
+      
+    </section>
+
+  </main>
+
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab--seleted">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
 
 </body>
 </html>
